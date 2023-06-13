@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: websocket-server
+  redis:
+    host: 127.0.0.1 # 地址
+    port: 6379 # 端口
+    database: 0 # 数据库索引
+server:
+  port: 8888
+
+#  websocket:
+#    enable: true # websocket的开关
+#    path: /websocket/message # 路径
+#    maxOnlineCount: 0 # 最大连接人数
+#    sessionMap: true # 保存sessionMap
